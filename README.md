@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/kdua/Graiware/_apis/build/status%2Fkapildua.pipelines-java?branchName=main)](https://dev.azure.com/kdua/Graiware/_build/latest?definitionId=1&branchName=main)
 
 # Contributing
 

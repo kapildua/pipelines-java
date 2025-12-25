@@ -5,10 +5,6 @@
 
 trigger:
 - main
-
-pool:
-  vmImage: $ubuntu-latest  
-steps:
 strategy:
   matrix:
     jdk10:
@@ -17,6 +13,9 @@ strategy:
       jdkVersion: "1.11"
   maxParallel: 2
 
+pool:
+  vmImage: $ubuntu-latest  
+steps:
 - task: Maven@4
   inputs:
     mavenPomFile: 'pom.xml'

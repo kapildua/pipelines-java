@@ -56,7 +56,7 @@ stages:
         notifyUsers: kdua@graiware.com
         instructions: 'Please validate the stage configuration and resume'
         onTimeout: 'resume'
-  - stage: DeployToProduction
+- stage: DeployToProduction
   displayName: 'Deploy to Production'
   dependsOn: DeployToStaging
   lockBehavior: sequential
